@@ -13,6 +13,7 @@ RUN         apk update && \
             # Install packages
             apk add --no-cache \
                     ca-certificates graphviz shadow \
+                    subversion \
                     php7-cli \
                     php7-ctype \
                     php7-curl \
